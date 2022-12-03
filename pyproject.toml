@@ -4,7 +4,7 @@ build-backend = 'setuptools.build_meta'
 
 [project]
 name = "simple-python-package"
-version = "0.0.1"
+version = "0.0.2"
 description = "A simple example package."
 authors = [{ name= "vi4hu", email= "rain.reachme@protonmail.com" }]
 readme = "README.md"
