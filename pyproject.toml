@@ -6,9 +6,7 @@ build-backend = 'setuptools.build_meta'
 name = "simple-python-package"
 version = "0.0.1"
 description = "A simple example package."
-authors = [{
-    name= "vi4hu", email= "rain.reachme@protonmail.com"
-}]
+authors = [{ name= "vi4hu", email= "rain.reachme@protonmail.com" }]
 readme = "README.md"
 license = { file = "LICENSE" }
 classifiers = [
@@ -25,3 +23,4 @@ dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
 
 [project.urls]
 Homepage = "https://github.com/vi4hu/simple-python-package-example"
+"Bug Reports" = "https://github.com/vi4hu/simple-python-package-example/issues"

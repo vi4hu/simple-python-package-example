@@ -7,4 +7,5 @@ class TestReverseNumber(unittest.TestCase):
         self.assertEqual(reverse_number(12), 21)
 
 
-unittest.main()
+if __name__ == "__main__":
+    unittest.main()
