@@ -1,3 +1,27 @@
 [build-system]
 requires = ['setuptools>=42']
 build-backend = 'setuptools.build_meta'
+
+[project]
+name = "simple-python-package"
+version = "0.0.1"
+description = "A simple example package."
+authors = [{
+    name= "vi4hu", email= "rain.reachme@protonmail.com"
+}]
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["reverse", "reverse number", "example"]
+dependencies = []
+requires-python = ">=3.6"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/vi4hu/simple-python-package-example"

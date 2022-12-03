@@ -8,3 +8,6 @@ py```
 python3 -m pip install --upgrade twine
 python3 -m twine upload --repository testpypi dist/*
 ```
+
+### Useful links
+- [1](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html)
